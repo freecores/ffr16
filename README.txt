@@ -61,7 +61,10 @@ ADDED:
 040507
 
 corrected:
+	\RTL
+		Updated and zipped
 	\TEST
+		Minor bugs corrected and zipped
 		CF_FILE_READ_TB.VHD : FFR16 testbench - Minor changes (bus and files)
 		CF_EMULATOR.VHD : Compact Flash model for functional co-debug/co-design. 
 				Partially implemented :
