@@ -42,3 +42,18 @@ DIRECTORIES:
 
 	\TEST
 	\DOC 
+
+============================
+030811
+
+ADDED:
+	\TEST
+		CF_FILE_READ_TB.VHD : FFR16 testbench
+		CF_EMULATOR.VHD : Compact Flash model for functional co-debug/co-design. 
+				Partially implemented :
+							Only read command.
+							Binary image of the IDE volume support.
+		EXAMPLE FILES FOR DEBUG:
+				RAW0_255.CHK 	: File stored into the FAT16 volumed used for simulaton.
+				ET0_511.BIN	: Binary dump of the 512 fisrt LBA sectors of a FAT16 formatted 
+						  Compact Flash with RAW0_255.CHK file stored into the root dir.
