@@ -1,0 +1,4 @@
+Release 4.2i - ngd2vhdl E.35
+Copyright (c) 1995-2001 Xilinx, Inc.  All rights reserved.
+ngd2vhdl: Reading design fat16rd.ngd ...
+ERROR:XdmHelpers:121 - cannot open input file 'fat16rd.ngd' 
